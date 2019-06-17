@@ -13,9 +13,9 @@ greeting: "개발 서버"
 ---
 spring:
   profiles: local
-greeting: "Local 서버"
-jdbc:
-  driverClassName: net.sf.log4jdbc.DriverSpy
-  url: jdbc:log4jdbc:postgresql://localhost:5432/sdb
-  username: postgres
-  password: postrgres
+    greeting: "Local 서버"
+    jdbc:
+      driverClassName: net.sf.log4jdbc.DriverSpy
+      url: jdbc:log4jdbc:postgresql://localhost:5432/sdb
+      username: postgres
+      password: postrgres
