@@ -1,16 +1,4 @@
-# greeting: "안녕하세요"
-
----
-spring:
-  profiles: stage
-greeting: "스테이지 서버"
-
----
-spring:
-  profiles: dev
-greeting: "개발 서버"
-
----
+greeting: "안녕하세요"
 spring:
   profiles: local
 greeting: "Local 서버"
@@ -18,4 +6,4 @@ jdbc:
   driverClassName: net.sf.log4jdbc.DriverSpy
   url: jdbc:log4jdbc:postgresql://localhost:5432/sdb
   username: postgres
-  password: rlawjdals2
+  password: addad
