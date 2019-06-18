@@ -1,6 +1,0 @@
-greeting: "Dev config Server 안녕하세요"
-jdbc:
-  driverClassName: net.sf.log4jdbc.DriverSpy
-  url: jdbc:log4jdbc:postgresql://localhost:5432/sdb
-  username: postgres
-  password: addad
