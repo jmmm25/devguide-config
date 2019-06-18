@@ -1,4 +1,6 @@
 greeting: "안녕하세요"
+supplier:
+  name: "kimjeongmin"
 jdbc:
   driverClassName: net.sf.log4jdbc.DriverSpy
   url: jdbc:log4jdbc:postgresql://localhost:5432/sdb
