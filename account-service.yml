@@ -2,5 +2,5 @@ greeting: "hello world"
 datasource:
   driverClassName: org.postgresql.Driver
   url: jdbc:postgresql://localhost:5432/sdb?currentSchema=public
-  user: postgres 
+  user: postgres222 
   password: postgres
