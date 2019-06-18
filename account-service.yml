@@ -1,1 +1,5 @@
-greeting: "안녕하세요"
+datasource:
+  driverClassName: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/sdb?currentSchema=public
+  user: postgres 
+  password: postgres
